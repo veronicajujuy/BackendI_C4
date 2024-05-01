@@ -1,0 +1,33 @@
+@startuml
+class Menu{
+-precioBase:double
+-juguetes: int
+-recargoEspecias: double
+-salsas:int
+}
+
+abstract class Preparador{
++prepararMenu():String
++{abstract}armarMenu(menu): String
++{abstract}calculoPrecio(menu) String
+}
+
+class PreparadorClasico{
++armarMenu(menu): String
++calculoPrecio(menu) String
+}
+class PreparadorVegano{
++armarMenu(menu): String
++calculoPrecio(menu) String
+}
+
+class PreparadorInfantil{
++armarMenu(menu): String
++calculoPrecio(menu) String
+}
+
+Preparador <|-- PreparadorClasico
+Preparador <|-- PreparadorInfantil
+Preparador <|-- PreparadorVegano
+Preparador .l.> Menu
+@enduml
