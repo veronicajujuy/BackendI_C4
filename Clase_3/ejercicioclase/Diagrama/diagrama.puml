@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Mail{
+-origen: String
+-destino:String
+-tema: String
+//getter-setter-constructor
+}
+
+ManejadorMail --> ManejadorMail
+ManejadorMail .l.> Mail
+abstract class ManejadorMail {
++{abstract}comprobarMail(Mail): String
+}
+class ManejadorGerencia{
++comprobarMail(Mail): String
+}
+class ManejadorComercial{
++comprobarMail(Mail): String
+}
+class ManejadorTecnico{
++comprobarMail(Mail): String
+}
+class ManejadorSpam{
++comprobarMail(Mail): String
+}
+ManejadorGerencia -u-|> ManejadorMail
+ManejadorTecnico -u-|> ManejadorMail
+ManejadorComercial -u-|> ManejadorMail
+ManejadorSpam -u-|> ManejadorMail
+@enduml
