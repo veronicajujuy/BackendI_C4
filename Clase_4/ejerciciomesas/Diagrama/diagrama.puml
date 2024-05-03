@@ -1,0 +1,25 @@
+@startuml
+
+class Usuario {
+-numero: String
+-nombre: String
+-tipo: Tipo
+}
+Tipo <.. Usuario
+enum Tipo {
+FREE,PREMIUM
+}
+
+interface SpotifyService {
++descargarCancion(Usuario):String
+}
+class ProxySpotify{
++descargarCancion(Usuario):String
+}
+class Spotify{
++descargarCancion(Usuario):String
+}
+ProxySpotify -u-|>SpotifyService
+Spotify -u-|>SpotifyService
+Usuario <.l. SpotifyService
+@enduml
