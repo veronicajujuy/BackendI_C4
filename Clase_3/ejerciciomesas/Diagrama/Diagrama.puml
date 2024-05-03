@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Articulo {
+-nombre: string
+-lote: int
+-peso: int
+-envasado: String
+}
+
+abstract class AnalistaCalidad{
++setAnalistaCalidadd(AnalistaCalidad): void
++getAnalistaCalidad():AnalistaCalidad
++{abstract} validarCalidad(Articulo)
+}
+AnalistaCalidad --> AnalistaCalidad
+
+class AnalistaLote{
++validarCalidad(Articulo)
+}
+class AnalistaPeso{
++validarCalidad(Articulo)
+}
+class AnalistaEnvase{
++validarCalidad(Articulo)
+}
+AnalistaCalidad<|--AnalistaLote
+AnalistaCalidad<|--AnalistaEnvase
+AnalistaCalidad<|--AnalistaPeso
+
+class CompruebaCalidad{
++CompruebaCalidad()
++validarCalidad(Articulo)
+}
+CompruebaCalidad .l.> AnalistaCalidad
+Articulo ..>AnalistaCalidad
+Articulo ..>CompruebaCalidad
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+class Persona {
+-nombre: String
+-apellido: String
+-dni: String
+-fechaVacunacion: Date
+-vacuna: String
+}
+
+interface ServiceVacunacion {
++vacunar(Persona):String
+}
+
+class Vacunacion {
++vacunar(Persona):String
+}
+
+class ProxyVacunacion {
++vacunar(Persona):String
+}
+ProxyVacunacion -u-|> ServiceVacunacion
+Vacunacion -u-|> ServiceVacunacion
+Vacunacion <-l- ProxyVacunacion
+ServiceVacunacion <.l. Persona
+@enduml
