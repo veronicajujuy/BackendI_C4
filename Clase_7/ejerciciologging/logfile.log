@@ -1,0 +1,28 @@
+[2024-05-09 21:55:17] [ INFO ] [ListaNumeros:14] La lista tiene mas de 5 elementos
+[2024-05-09 21:56:51] [ ERROR] [ListaNumeros:31] La lista no puede tener cero elementos
+[2024-05-09 21:56:51] [ INFO ] [ListaNumeros:14] La lista tiene mas de 5 elementos
+[2024-05-09 21:57:40] [ ERROR] [ListaNumeros:31] La lista no puede tener cero elementos
+[2024-05-09 21:57:40] [ INFO ] [ListaNumeros:33] el promedio es: 0.0
+[2024-05-09 21:57:40] [ INFO ] [ListaNumeros:14] La lista tiene mas de 5 elementos
+[2024-05-09 21:57:40] [ INFO ] [ListaNumeros:33] el promedio es: 14.5
+[2024-05-09 21:58:53] [ ERROR] [ListaNumeros:31] La lista no puede tener cero elementos
+[2024-05-09 21:58:53] [ INFO ] [ListaNumeros:33] el promedio es: 0.0
+[2024-05-09 21:58:53] [ INFO ] [ListaNumeros:14] La lista tiene mas de 5 elementos
+[2024-05-09 21:58:53] [ INFO ] [ListaNumeros:33] el promedio es: 14.5
+[2024-05-09 22:00:19] [ ERROR] [ListaNumeros:32] La lista no puede tener cero elementos
+[2024-05-09 22:00:19] [ INFO ] [ListaNumeros:34] el promedio es: 0.0
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 4
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 7
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 8
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 11
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 25
+[2024-05-09 22:00:19] [ DEBUG] [ListaNumeros:12] numero agregado 32
+[2024-05-09 22:00:19] [ INFO ] [ListaNumeros:15] La lista tiene mas de 5 elementos
+[2024-05-09 22:00:19] [ INFO ] [ListaNumeros:34] el promedio es: 14.5
+[2024-05-09 22:01:11] [ ERROR] [ListaNumeros:32] La lista no puede tener cero elementos
+[2024-05-09 22:01:11] [ INFO ] [ListaNumeros:34] el promedio es: 0.0
+[2024-05-09 22:01:11] [ INFO ] [ListaNumeros:15] La lista tiene mas de 5 elementos
+[2024-05-09 22:01:11] [ INFO ] [ListaNumeros:34] el promedio es: 14.5
+[2024-05-09 22:10:27] [ ERROR] [ListaNumeros:34] La lista no puede tener cero elementos
+[2024-05-09 22:10:27] [ INFO ] [ListaNumeros:15] La lista tiene mas de 5 elementos
+[2024-05-09 22:10:27] [ INFO ] [ListaNumeros:32] el promedio es: 14.5
