@@ -1,0 +1,5 @@
+[2024-05-15 00:28:21] [ INFO ] [MedicamentoIDaoH2:34] Medicamento persistido: Medicamento id=2, codigo=1234, nombre='ASPIRINA', laboratorio='BAGO', cantidad=30, precio=10.0
+[2024-05-15 00:32:52] [ INFO ] [MedicamentoIDaoH2:76] El medicamento encontrado es: Medicamento id=1, codigo=567, nombre='IBUPROFENO', laboratorio='PFIZER', cantidad=12, precio=3500.0
+[2024-05-15 00:34:24] [ INFO ] [MedicamentoIDaoH2:76] El medicamento encontrado es: null
+[2024-05-15 01:02:08] [ INFO ] [MedicamentoIDaoH2:144] Medicamento devuelto: Medicamento id=1, codigo=567, nombre='IBUPROFENO', laboratorio='PFIZER', cantidad=12, precio=3500.0
+[2024-05-15 01:02:08] [ INFO ] [MedicamentoIDaoH2:144] Medicamento devuelto: Medicamento id=2, codigo=859, nombre='PARACETAMOL', laboratorio='PFIZER', cantidad=10, precio=3000.0

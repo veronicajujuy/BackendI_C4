@@ -1,0 +1,15 @@
+[2024-05-14 17:51:01] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:51:01] [ INFO ] [Main:63] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:51:44] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:51:44] [ INFO ] [Main:64] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:53:33] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:53:33] [ INFO ] [Main:63] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:54:32] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:54:32] [ INFO ] [Main:63] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:54:32] [ INFO ] [Main:64] odontologo: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='4567
+[2024-05-14 17:56:10] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:56:10] [ INFO ] [Main:63] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:56:10] [ INFO ] [Main:64] odontologo: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='1234
+[2024-05-14 17:58:43] [ INFO ] [Main:42] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='456
+[2024-05-14 17:58:43] [ INFO ] [Main:63] odontologo desde la db: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='1234
+[2024-05-14 17:58:43] [ INFO ] [Main:64] odontologo: Odontologo id=1, apellido='Panico', nombre='Carlos', matricula='1234
