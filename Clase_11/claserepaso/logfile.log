@@ -1,0 +1,6 @@
+[2024-05-16 23:13:52] [ INFO ] [DomicilioDaoH2:46] Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:0 */ 1, 'SIEMPRE VIVA', 123, 'SAN PEDRO', 'JUJUY')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.DOMICILIOS(ID) ( /* key:0 */ 1, 'SIEMPRE VIVA', 123, 'SAN PEDRO', 'JUJUY')"; SQL statement:
+INSERT INTO DOMICILIOS VALUES (DEFAULT,?,?,?,?) [23505-224]
+[2024-05-16 23:13:52] [ INFO ] [PacienteDaoH2:56] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+[2024-05-16 23:15:25] [ INFO ] [DomicilioDaoH2:34] Paciente persistido: Domicilio id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-05-16 23:15:25] [ INFO ] [PacienteDaoH2:43] paciente guardado: Paciente id=2, apellido='Cosme', nombre='Menganito', dni='456464', fechaIngreso=2024-04-22, domicilio=Domicilio id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
