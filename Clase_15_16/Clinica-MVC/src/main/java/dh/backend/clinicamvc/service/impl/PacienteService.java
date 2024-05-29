@@ -1,7 +1,8 @@
-package dh.backend.clinicamvc.service;
+package dh.backend.clinicamvc.service.impl;
 
 import dh.backend.clinicamvc.dao.IDao;
 import dh.backend.clinicamvc.model.Paciente;
+import dh.backend.clinicamvc.service.IPacienteService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
