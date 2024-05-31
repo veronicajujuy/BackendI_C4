@@ -105,6 +105,16 @@ public class OdontologoIDaoH2 implements IDao<Odontologo> {
         return odontologos;
     }
 
+    @Override
+    public void actualizar(Odontologo odontologo) {
+
+    }
+
+    @Override
+    public void eliminar(Integer id) {
+
+    }
+
     private Odontologo crearOdontologo(ResultSet resultSet) throws SQLException {
         int id = resultSet.getInt(1);
         String nro_matricula = resultSet.getString(2);

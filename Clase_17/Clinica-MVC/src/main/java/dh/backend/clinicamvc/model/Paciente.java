@@ -10,6 +10,9 @@ public class Paciente {
     private LocalDate fechaIngreso;
     private Domicilio domicilio;
 
+    public Paciente() {
+    }
+
     public Paciente(String apellido, String nombre, String dni, LocalDate fechaIngreso, Domicilio domicilio) {
         this.apellido = apellido;
         this.nombre = nombre;

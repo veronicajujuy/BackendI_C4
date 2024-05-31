@@ -26,4 +26,14 @@ public class PacienteService implements IPacienteService {
     public List<Paciente> buscarTodos(){
         return pacienteIDao.buscarTodos();
     }
+
+    @Override
+    public void actualizarPaciente(Paciente paciente) {
+        pacienteIDao.actualizar(paciente);
+    }
+
+    @Override
+    public void eliminarPaciente(Integer id) {
+        pacienteIDao.eliminar(id);
+    }
 }
