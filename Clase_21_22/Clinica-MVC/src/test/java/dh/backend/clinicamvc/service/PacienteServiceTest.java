@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PacienteServiceTest {
     private static Logger LOGGER = LoggerFactory.getLogger(PacienteServiceTest.class);
     @Autowired
-    private static PacienteService pacienteService;
+    private PacienteService pacienteService;
     private Paciente paciente;
 
     @BeforeEach

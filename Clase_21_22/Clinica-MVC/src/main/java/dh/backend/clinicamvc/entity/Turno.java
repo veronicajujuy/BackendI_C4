@@ -1,5 +1,6 @@
 package dh.backend.clinicamvc.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -15,7 +16,10 @@ public class Turno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
+
+    @ManyToOne
     Paciente paciente;
+    @ManyToOne
     Odontologo odontologo;
     LocalDate fecha;
 }
